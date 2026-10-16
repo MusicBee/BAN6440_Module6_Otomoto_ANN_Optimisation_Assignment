@@ -13,7 +13,7 @@ resources more effectively.
 
 ## Objectives
 
--   Recreate and evaluate a baseline ANN for customer churn prediction.
+-   Recreate and evaluate a baseline ANN for customer segmentation.
 -   Compare Adam, RMSprop, and Stochastic Gradient Descent (SGD).
 -   Evaluate models using multiple classification metrics.
 -   Recommend a provisional model based on performance and business
@@ -153,19 +153,4 @@ report.
 -   scikit-learn developers. (n.d.). *Metrics*.
     https://scikit-learn.org/stable/api/sklearn.metrics.html
 
-## AI Use Disclosure
 
-ChatGPT was used to assist with report structure, explanations and
-comparison of optimizers, interpretation and presentation of supplied
-experimental results, recommendations, and visual design. The
-experimental metrics should be attributed to the assignment's model
-runs, not to ChatGPT. The author is responsible for verifying source
-claims and ensuring that the final submission reflects the work actually
-performed.
-
-## Reproducibility Note
-
-This README documents the reported configuration and results. It does
-not include the dataset or guarantee that the reported scores will
-reproduce without the exact source code, dependency versions,
-preprocessing pipeline, and random seeds used during each run.
